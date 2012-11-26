@@ -8,10 +8,10 @@ class CamerticConfig {
 	//var $library = 'C:\wamp\www\pagify\lib\library.php';
 	var $dbtype = 'mysql';
 	var $host = '';
-	var $dbname = 'premium';
+	var $dbname = 'test';
 	var $port = 3306;
 	var $rootUrl = 'http://';
-	var $appfolder = 'premium/';
+	var $appfolder = 'FrameworkCamertic/';
 	var $traceSQL = false; // Indique si on doit faire des tracing des requetes sql
 	var $traceActions = false; // Indique si on doit faire tracings des actions des utilisateurs
 	var $logType = 'sql'; // Le log type precise la facon dont les logs sont enregistre. valeurs possibles : 'sql' = dans la BD, ou 'file' = dans un fichier
