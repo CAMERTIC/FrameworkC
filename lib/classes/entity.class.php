@@ -8,7 +8,9 @@
  * @copyright 	Copyright (c) 2012, Bertrand, Patient et Fabrice
  * @license		GNU General Public License
  */
-
+//////////////////////////////////////////////////
+////// Ne pas toucher cette classe ///////////////
+//////////////////////////////////////////////////
 abstract class entity extends bd {
 	
 	protected $table;

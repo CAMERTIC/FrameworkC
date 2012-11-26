@@ -10,13 +10,12 @@
  * @license		GNU General Public License
  */
 
-class grupos extends entity {
+class entite extends entity {
 	
 	public function __construct() {
-		parent::__construct('grupos');
+		parent::__construct(__CLASS__);
+		
 	}
-	
-	
 	
 	public function __destruct() {
 		parent::__destruct();

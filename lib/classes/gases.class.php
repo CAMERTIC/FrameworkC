@@ -10,14 +10,10 @@
  * @license		GNU General Public License
  */
 
-class mdr extends entity {
+class test extends entity {
 	
 	public function __construct() {
 		parent::__construct(__CLASS__);
-	}
-	
-	public function getAutocaristes() {
-		
 	}
 	
 	public function __destruct() {
